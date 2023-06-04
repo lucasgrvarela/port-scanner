@@ -39,12 +39,12 @@ go build -o port-scanner
 2. Scan all ports from 1 to 1024
 ```bash
 ./port-scanner tcp localhost 0
-Port result: {tcp/1 Closed}
-Port result: {tcp/2 Closed}
-Port result: {tcp/3 Closed}
+{tcp/1 Closed}
+{tcp/2 Closed}
+{tcp/3 Closed}
 ...
-Port result: {tcp/80 Open}
-Port result: {tcp/81 Closed}
+{tcp/80 Open}
+{tcp/81 Closed}
 ...
 ```
 
